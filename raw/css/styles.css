@@ -1,0 +1,65 @@
+@font-face {
+    font-family: 'Poppins';
+    src: url('../font/poppins/Poppins-Regular.ttf');
+}
+body {
+    color: white;
+    font-family: 'Poppins';
+    background-image: url(https://picsum.photos/3840/2160);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+.borde_hr {
+    border-color: rgb(79, 89, 98);
+}
+.efecto_blur {
+    background-color: rgba(52, 58, 64, 0.5);
+    backdrop-filter: blur(10px);
+}
+.boton_personalizado {
+    background-color: rgba(255, 255, 255, 0.5);
+    backdrop-filter: blur(10px);
+    color: white;
+}
+.boton_personalizado:hover {
+    background-color: rgba(255, 255, 255, 1.0);
+    color: rgb(52, 58, 64);
+}
+.swal2-title.titulo {
+    color: #FFFFFF;
+}
+.swal2-styled.swal2-confirm.boton_ok:focus {
+    box-shadow: none;
+}
+.swal2-styled.swal2-confirm.boton_ok {
+    background-color: rgba(255, 255, 255, 0.5);
+    backdrop-filter: blur(10px);
+    color: white;
+}
+.swal2-styled.swal2-confirm.boton_ok:hover {
+    background-color: rgba(255, 255, 255, 1.0);
+    color: rgb(52, 58, 64);
+}
+.swal2-styled.swal2-cancel.boton_cancelar:focus {
+    box-shadow: none;
+}
+.swal2-styled.swal2-cancel.boton_cancelar {
+    background-color: rgba(255, 255, 255, 0.5);
+    backdrop-filter: blur(10px);
+    color: white;
+}
+.swal2-styled.swal2-cancel.boton_cancelar:hover {
+    background-color: rgba(255, 255, 255, 1.0);
+    color: rgb(52, 58, 64);
+}
+.previsualizacion_foto_perfil {
+    width: 150px;
+    height: 150px;
+    background-color: #FFFFFF;
+    background-image: url('../img/usuario-defecto.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
